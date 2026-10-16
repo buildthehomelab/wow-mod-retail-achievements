@@ -1,0 +1,207 @@
+id	achievement	type	asset	quantity	flags	data	text
+20000	9300	skillline_spells	777	150	1		Obtain 150 mounts
+20001	9301	skillline_spells	777	150	1		Obtain 150 mounts
+20002	9302	skillline_spells	777	200	1		Obtain 200 mounts
+20003	9303	skillline_spells	777	200	1		Obtain 200 mounts
+20004	9304	skillline_spells	777	250	1		Obtain 250 mounts
+20005	9305	skillline_spells	777	250	1		Obtain 250 mounts
+20006	9306	skillline_spells	777	300	1		Obtain 300 mounts
+20007	9307	skillline_spells	777	300	1		Obtain 300 mounts
+20008	9308	skillline_spells	777	350	1		Obtain 350 mounts
+20009	9309	skillline_spells	777	350	1		Obtain 350 mounts
+20010	9310	skillline_spells	777	400	1		Obtain 400 mounts
+20011	9311	skillline_spells	777	400	1		Obtain 400 mounts
+20012	9312	skillline_spells	777	500	1		Obtain 500 mounts
+20013	9313	skillline_spells	777	500	1		Obtain 500 mounts
+20014	9314	skillline_spells	777	600	1		Obtain 600 mounts
+20015	9315	skillline_spells	777	600	1		Obtain 600 mounts
+20016	9320	reach_level	0	80	2	class=1	Reach level 80 as a Warrior
+20017	9321	reach_level	0	80	2	class=2	Reach level 80 as a Paladin
+20018	9322	reach_level	0	80	2	class=3	Reach level 80 as a Hunter
+20019	9323	reach_level	0	80	2	class=4	Reach level 80 as a Rogue
+20020	9324	reach_level	0	80	2	class=5	Reach level 80 as a Priest
+20021	9325	reach_level	0	80	2	class=6	Reach level 80 as a Death Knight
+20022	9326	reach_level	0	80	2	class=7	Reach level 80 as a Shaman
+20023	9327	reach_level	0	80	2	class=8	Reach level 80 as a Mage
+20024	9328	reach_level	0	80	2	class=9	Reach level 80 as a Warlock
+20025	9330	honorable_kills	0	15000	1		Earn 15000 honorable kills
+20026	9331	honorable_kills	0	25000	1		Earn 25000 honorable kills
+20027	9332	honorable_kills	0	50000	1		Earn 50000 honorable kills
+20028	9333	honorable_kills	0	75000	1		Earn 75000 honorable kills
+20029	9334	honorable_kills	0	100000	1		Earn 100000 honorable kills
+20030	9335	honorable_kills	0	150000	1		Earn 150000 honorable kills
+20031	9336	honorable_kills	0	250000	1		Earn 250000 honorable kills
+20032	9340	win_bg	489	100	3		Warsong Gulch victories
+20033	9340	win_bg	529	100	3		Arathi Basin victories
+20034	9340	win_bg	30	100	3		Alterac Valley victories
+20035	9340	win_bg	566	100	3		Eye of the Storm victories
+20036	9340	win_bg	607	100	3		Strand of the Ancients victories
+20037	9340	win_bg	628	100	3		Isle of Conquest victories
+20038	9341	win_bg	489	200	3		Warsong Gulch victories
+20039	9341	win_bg	529	200	3		Arathi Basin victories
+20040	9341	win_bg	30	200	3		Alterac Valley victories
+20041	9341	win_bg	566	200	3		Eye of the Storm victories
+20042	9341	win_bg	607	200	3		Strand of the Ancients victories
+20043	9341	win_bg	628	200	3		Isle of Conquest victories
+20044	9342	win_bg	489	300	3		Warsong Gulch victories
+20045	9342	win_bg	529	300	3		Arathi Basin victories
+20046	9342	win_bg	30	300	3		Alterac Valley victories
+20047	9342	win_bg	566	300	3		Eye of the Storm victories
+20048	9342	win_bg	607	300	3		Strand of the Ancients victories
+20049	9342	win_bg	628	300	3		Isle of Conquest victories
+20050	9343	win_bg	489	400	3		Warsong Gulch victories
+20051	9343	win_bg	529	400	3		Arathi Basin victories
+20052	9343	win_bg	30	400	3		Alterac Valley victories
+20053	9343	win_bg	566	400	3		Eye of the Storm victories
+20054	9343	win_bg	607	400	3		Strand of the Ancients victories
+20055	9343	win_bg	628	400	3		Isle of Conquest victories
+20056	9344	win_bg	489	500	3		Warsong Gulch victories
+20057	9344	win_bg	529	500	3		Arathi Basin victories
+20058	9344	win_bg	30	500	3		Alterac Valley victories
+20059	9344	win_bg	566	500	3		Eye of the Storm victories
+20060	9344	win_bg	607	500	3		Strand of the Ancients victories
+20061	9344	win_bg	628	500	3		Isle of Conquest victories
+20062	9345	win_bg	489	600	3		Warsong Gulch victories
+20063	9345	win_bg	529	600	3		Arathi Basin victories
+20064	9345	win_bg	30	600	3		Alterac Valley victories
+20065	9345	win_bg	566	600	3		Eye of the Storm victories
+20066	9345	win_bg	607	600	3		Strand of the Ancients victories
+20067	9345	win_bg	628	600	3		Isle of Conquest victories
+20068	9346	win_bg	489	700	3		Warsong Gulch victories
+20069	9346	win_bg	529	700	3		Arathi Basin victories
+20070	9346	win_bg	30	700	3		Alterac Valley victories
+20071	9346	win_bg	566	700	3		Eye of the Storm victories
+20072	9346	win_bg	607	700	3		Strand of the Ancients victories
+20073	9346	win_bg	628	700	3		Isle of Conquest victories
+20074	9347	win_bg	489	800	3		Warsong Gulch victories
+20075	9347	win_bg	529	800	3		Arathi Basin victories
+20076	9347	win_bg	30	800	3		Alterac Valley victories
+20077	9347	win_bg	566	800	3		Eye of the Storm victories
+20078	9347	win_bg	607	800	3		Strand of the Ancients victories
+20079	9347	win_bg	628	800	3		Isle of Conquest victories
+20080	9349	win_bg	489	1000	3		Warsong Gulch victories
+20081	9349	win_bg	529	1000	3		Arathi Basin victories
+20082	9349	win_bg	30	1000	3		Alterac Valley victories
+20083	9349	win_bg	566	1000	3		Eye of the Storm victories
+20084	9349	win_bg	607	1000	3		Strand of the Ancients victories
+20085	9349	win_bg	628	1000	3		Isle of Conquest victories
+20086	9350	win_bg	489	1100	3		Warsong Gulch victories
+20087	9350	win_bg	529	1100	3		Arathi Basin victories
+20088	9350	win_bg	30	1100	3		Alterac Valley victories
+20089	9350	win_bg	566	1100	3		Eye of the Storm victories
+20090	9350	win_bg	607	1100	3		Strand of the Ancients victories
+20091	9350	win_bg	628	1100	3		Isle of Conquest victories
+20092	9352	win_bg	489	1300	3		Warsong Gulch victories
+20093	9352	win_bg	529	1300	3		Arathi Basin victories
+20094	9352	win_bg	30	1300	3		Alterac Valley victories
+20095	9352	win_bg	566	1300	3		Eye of the Storm victories
+20096	9352	win_bg	607	1300	3		Strand of the Ancients victories
+20097	9352	win_bg	628	1300	3		Isle of Conquest victories
+20098	9353	win_bg	489	1400	3		Warsong Gulch victories
+20099	9353	win_bg	529	1400	3		Arathi Basin victories
+20100	9353	win_bg	30	1400	3		Alterac Valley victories
+20101	9353	win_bg	566	1400	3		Eye of the Storm victories
+20102	9353	win_bg	607	1400	3		Strand of the Ancients victories
+20103	9353	win_bg	628	1400	3		Isle of Conquest victories
+20104	9354	win_bg	489	1500	3		Warsong Gulch victories
+20105	9354	win_bg	529	1500	3		Arathi Basin victories
+20106	9354	win_bg	30	1500	3		Alterac Valley victories
+20107	9354	win_bg	566	1500	3		Eye of the Storm victories
+20108	9354	win_bg	607	1500	3		Strand of the Ancients victories
+20109	9354	win_bg	628	1500	3		Isle of Conquest victories
+20110	9360	win_bg	489	50	1		50 Warsong Gulch victories
+20111	9361	win_bg	489	50	1		50 Warsong Gulch victories
+20112	9362	win_bg	529	50	1		50 Arathi Basin victories
+20113	9363	win_bg	529	50	1		50 Arathi Basin victories
+20114	9364	win_bg	30	50	1		50 Alterac Valley victories
+20115	9365	win_bg	30	50	1		50 Alterac Valley victories
+20116	9366	win_bg	566	50	1		50 Eye of the Storm victories
+20117	9367	win_bg	566	50	1		50 Eye of the Storm victories
+20118	9368	win_bg	607	50	1		50 Strand of the Ancients victories
+20119	9369	win_bg	607	50	1		50 Strand of the Ancients victories
+20120	9370	win_bg	628	50	1		50 Isle of Conquest victories
+20121	9371	win_bg	628	50	1		50 Isle of Conquest victories
+20122	9372	win_bg	489	150	1		150 Warsong Gulch victories
+20123	9373	win_bg	489	150	1		150 Warsong Gulch victories
+20124	9374	win_bg	529	150	1		150 Arathi Basin victories
+20125	9375	win_bg	529	150	1		150 Arathi Basin victories
+20126	9376	win_bg	30	150	1		150 Alterac Valley victories
+20127	9377	win_bg	30	150	1		150 Alterac Valley victories
+20128	9378	win_bg	566	150	1		150 Eye of the Storm victories
+20129	9379	win_bg	566	150	1		150 Eye of the Storm victories
+20130	9380	win_bg	607	150	1		150 Strand of the Ancients victories
+20131	9381	win_bg	607	150	1		150 Strand of the Ancients victories
+20132	9382	win_bg	628	150	1		150 Isle of Conquest victories
+20133	9383	win_bg	628	150	1		150 Isle of Conquest victories
+20134	9390	complete_achievement	686	0	0		Molten Core
+20135	9391	kill_creature	6109	1	0		Azuregos
+20136	9391	kill_creature	12397	1	0		Lord Kazzak
+20137	9391	kill_creature	17711	1	0		Doomwalker
+20138	9391	kill_creature	18728	1	0		Doom Lord Kazzak
+20139	9392	complete_achievement	3036	0	0		Observed (10 player)
+20140	9392	complete_achievement	3037	0	0		Observed (25 player)
+20141	9400	complete_achievement	951	0	0		The Oracles
+20142	9401	gain_reputation	1073	42000	0		Exalted with The Kalu'ak
+20143	9402	gain_reputation	1015	42000	0		Exalted with Netherwing
+20144	9403	gain_reputation	1077	42000	0		Exalted with Shattered Sun Offensive
+20145	9404	gain_reputation	1038	42000	0		Exalted with Ogri'la
+20146	9405	gain_reputation	933	42000	0		Exalted with The Consortium
+20147	9406	gain_reputation	59	42000	0		Exalted with Thorium Brotherhood
+20148	9406	gain_reputation	749	42000	0		Exalted with Hydraxian Waterlords
+20149	9407	gain_reputation	1073	42000	0		Exalted with The Kalu'ak
+20150	9407	complete_achievement	951	0	0		The Oracles
+20151	9407	complete_achievement	950	0	0		Frenzyheart Tribe
+20152	9408	gain_reputation	1073	42000	0		Exalted with The Kalu'ak
+20153	9408	complete_achievement	951	0	0		The Oracles
+20154	9408	complete_achievement	950	0	0		Frenzyheart Tribe
+20155	9409	gain_reputation	942	42000	0		Exalted with Cenarion Expedition
+20156	9409	complete_achievement	1190	0	0		Mysteries of the Marsh
+20157	9410	gain_reputation	21	42000	0		Exalted with Booty Bay
+20158	9410	gain_reputation	369	42000	0		Exalted with Gadgetzan
+20159	9410	gain_reputation	470	42000	0		Exalted with Ratchet
+20160	9410	gain_reputation	577	42000	0		Exalted with Everlook
+20161	9411	gain_reputation	1012	42000	0		Exalted with Ashtongue Deathsworn
+20162	9411	complete_achievement	1195	0	0		Shadow of the Betrayer
+20163	9412	complete_achievement	38	0	0		The Summit of Storm Peaks
+20164	9412	gain_reputation	1119	42000	0		Exalted with The Sons of Hodir
+20165	9413	quests_in_zone	440	120	3		Tanaris
+20166	9413	quests_in_zone	1377	120	3		Silithus
+20167	9414	complete_achievement	41	0	0		Loremaster of Northrend (Alliance)
+20168	9414	complete_achievement	1360	0	0		Loremaster of Northrend (Horde)
+20169	9415	complete_achievement	1194	0	0		Into the Nether
+20170	9415	complete_achievement	843	0	0		Explore Netherstorm
+20171	9416	quests_in_zone	15	60	3		Dustwallow Marsh
+20172	9416	quests_in_zone	8	60	3		Swamp of Sorrows
+20173	9417	quests_in_zone	4080	15	1		Complete 15 quests on the Isle of Quel'Danas
+20174	9418	quests_in_zone	405	20	1		Complete 20 quests in Desolace
+20175	9419	quests_in_zone	1584	15	1		Complete 15 quests in Blackrock Depths
+20176	9420	complete_achievement	634	0	0		Gnomeregan
+20177	9420	quests_in_zone	133	4	1		Complete 4 Gnomeregan quests
+20178	9421	quests_in_zone	10	25	1		Complete 25 quests in Duskwood
+20179	9421	complete_quest	1391	0	0		Nothing But The Truth
+20180	9422	complete_achievement	39	0	0		Into the Basin
+20181	9422	complete_achievement	1268	0	0		Explore Sholazar Basin
+20182	9422	complete_achievement	1269	0	0		Explore Storm Peaks
+20183	9423	complete_achievement	673	0	0		Heroic: The Escape From Durnholde
+20184	9424	complete_quest	8193	0	2		Master Angler
+20185	9425	exalted_reputations	0	45	1		45 reputations to exalted
+20186	9426	complete_achievement	1684	0	0		Brewmaster
+20187	9426	complete_achievement	1038	0	0		The Flame Warden
+20188	9426	complete_achievement	1656	0	0		Hallowed Be Thy Name
+20189	9427	complete_achievement	1683	0	0		Brewmaster
+20190	9427	complete_achievement	1039	0	0		The Flame Keeper
+20191	9427	complete_achievement	1657	0	0		Hallowed Be Thy Name
+20192	9428	complete_achievement	45	0	0		Explore Northrend
+20193	9428	complete_achievement	9414	0	0		Across the Isles
+20194	9428	complete_achievement	1010	0	0		Northrend Vanguard
+20195	9429	complete_achievement	44	0	0		Explore Outland
+20196	9429	complete_achievement	1262	0	0		Loremaster of Outland
+20197	9429	complete_achievement	764	0	0		The Burning Crusader
+20198	9430	complete_achievement	44	0	0		Explore Outland
+20199	9430	complete_achievement	1274	0	0		Loremaster of Outland
+20200	9430	complete_achievement	763	0	0		The Burning Crusader
+20201	9431	kill_creature	36597	1	0		The Lich King
+20202	9431	complete_achievement	547	0	0		Veteran of the Wrathgate
+20203	9431	complete_achievement	1658	0	0		Champion of the Frozen Wastes
+20204	9432	complete_achievement	45	0	0		Explore Northrend
+20205	9432	complete_achievement	1717	0	0		Wintergrasp Victory

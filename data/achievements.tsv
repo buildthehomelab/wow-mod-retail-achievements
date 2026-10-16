@@ -1,0 +1,106 @@
+id	retail_id	faction	category	parent	points	icon	count	flags	title	description	reward	item	letter
+9300	7860	alliance	92	2536	10	400521	0	0	We're Going to Need More Saddles	Obtain 150 mounts.	Jade Pandaren Kite	400521	stable
+9301	7862	horde	92	2537	10	400521	0	0	We're Going to Need More Saddles	Obtain 150 mounts.	Jade Pandaren Kite	400521	stable
+9302	8304	alliance	92	9300	10	400549	0	0	Mount Parade	Obtain 200 mounts.	Armored Blue Dragonhawk	400549	stable
+9303	8302	horde	92	9301	10	400548	0	0	Mount Parade	Obtain 200 mounts.	Armored Red Dragonhawk	400548	stable
+9304	9598	alliance	92	9302	10	401191	0	0	Mountacular	Obtain 250 mounts.	Felfire Hawk	400416	stable
+9305	9599	horde	92	9303	10	401191	0	0	Mountacular	Obtain 250 mounts.	Felfire Hawk	400416	stable
+9306	10356	alliance	92	9304	10	400464	0	0	Lord of the Reins	Obtain 300 mounts.	Heavenly Azure Cloud Serpent	400477	stable
+9307	10355	horde	92	9305	10	400464	0	0	Lord of the Reins	Obtain 300 mounts.	Heavenly Azure Cloud Serpent	400477	stable
+9308	12932	alliance	92	9306	10	401167	0	0	No Stable Big Enough	Obtain 350 mounts.	Frostshard Infernal	401167	stable
+9309	12931	horde	92	9307	10	401167	0	0	No Stable Big Enough	Obtain 350 mounts.	Frostshard Infernal	401167	stable
+9310	12933	alliance	92	9308	10	401191	0	0	A Horde of Hoofbeats	Obtain 400 mounts.	Frenzied Feltalon	401191	stable
+9311	12934	horde	92	9309	10	401191	0	0	A Horde of Hoofbeats	Obtain 400 mounts.	Frenzied Feltalon	401191	stable
+9312	15834	alliance	92	9310	10	401654	0	0	Thanks for the Carry!	Obtain 500 mounts.	Otterworldly Ottuk Carrier	401654	stable
+9313	15833	horde	92	9311	10	401654	0	0	Thanks for the Carry!	Obtain 500 mounts.	Otterworldly Ottuk Carrier	401654	stable
+9314	62103	alliance	92	9312	10	402917	0	0	Insurmountable Collection	Obtain 600 mounts.	Anu'shalla, Shadow's Guidance	402917	stable
+9315	62096	horde	92	9313	10	402917	0	0	Insurmountable Collection	Obtain 600 mounts.	Anu'shalla, Shadow's Guidance	402917	stable
+9320	42684	any	92	0	10	402731	0	0	Timerunner: Warrior	Reach level 80 with a Warrior.	Felscorned War Wyrm	402731	chromie
+9321	42504	any	92	0	10	402726	0	0	Timerunner: Paladin	Reach level 80 with a Paladin.	Felscorned Highlord's Charger	402726	chromie
+9322	42687	any	92	0	10	402723	0	0	Timerunner: Hunter	Reach level 80 with a Hunter.	Felscorned Wolfhawk	402723	chromie
+9323	61084	any	92	0	10	402728	0	0	Timerunner: Rogue	Reach level 80 with a Rogue.	Shadowblade's Felscorned Omen	402728	chromie
+9324	61088	any	92	0	10	402727	0	0	Timerunner: Priest	Reach level 80 with a Priest.	High Priest's Felscorned Seeker	402727	chromie
+9325	42685	any	92	0	10	402720	0	0	Timerunner: Death Knight	Reach level 80 with a Death Knight.	Felscorned Vilebrood Vanquisher	402720	chromie
+9326	42686	any	92	0	10	402729	0	0	Timerunner: Shaman	Reach level 80 with a Shaman.	Farseer's Felscorned Tempest	402729	chromie
+9327	61089	any	92	0	10	402724	0	0	Timerunner: Mage	Reach level 80 with a Mage.	Archmage's Felscorned Disc	402724	chromie
+9328	61090	any	92	0	10	402730	0	0	Timerunner: Warlock	Reach level 80 with a Warlock.	Felscorned Netherlord's Dreadsteed	402730	chromie
+9330	12895	any	95	0	10	400826	0	0	Honor Level 15	Earn 15000 honorable kills.	Prestigious Bronze Courser	400826	honor
+9331	12903	any	95	9330	10	400833	0	0	Honor Level 40	Earn 25000 honorable kills.	Prestigious Ivory Courser	400833	honor
+9332	12906	any	95	9331	10	400834	0	0	Honor Level 70	Earn 50000 honorable kills.	Prestigious Azure Courser	400834	honor
+9333	12910	any	95	9332	10	400832	0	0	Honor Level 125	Earn 75000 honorable kills.	Prestigious Forest Courser	400832	honor
+9334	12911	any	95	9333	10	400831	0	0	Honor Level 150	Earn 100000 honorable kills.	Prestigious Royal Courser	400831	honor
+9335	12914	any	95	9334	10	400836	0	0	Honor Level 250	Earn 150000 honorable kills.	Prestigious Midnight Courser	400836	honor
+9336	12917	any	95	9335	10	401192	0	0	Honor Level 500	Earn 250000 honorable kills.	Prestigious Bloodforged Courser	401192	honor
+9340	12961	any	95	0	10	3599	0	136	Gladiator: Battle for Azeroth Season 1	Win 100 battlegrounds.	Dread Gladiator's Proto-Drake	401030	gladiator
+9341	13212	any	95	9340	10	3599	0	136	Gladiator: Battle for Azeroth Season 2	Win 200 battlegrounds.	Sinister Gladiator's Proto-Drake	401031	gladiator
+9342	13647	any	95	9341	10	3599	0	136	Gladiator: Battle for Azeroth Season 3	Win 300 battlegrounds.	Notorious Gladiator's Proto-Drake	401032	gladiator
+9343	13967	any	95	9342	10	3599	0	136	Gladiator: Battle for Azeroth Season 4	Win 400 battlegrounds.	Corrupted Gladiator's Proto-Drake	401035	gladiator
+9344	14689	any	95	9343	10	401363	0	136	Gladiator: Shadowlands Season 1	Win 500 battlegrounds.	Sinful Gladiator's Soul Eater	401363	gladiator
+9345	14972	any	95	9344	10	401480	0	136	Gladiator: Shadowlands Season 2	Win 600 battlegrounds.	Unchained Gladiator's Soul Eater	401480	gladiator
+9346	15352	any	95	9345	10	401572	0	136	Gladiator: Shadowlands Season 3	Win 700 battlegrounds.	Cosmic Gladiator's Soul Eater	401572	gladiator
+9347	15605	any	95	9346	10	401599	0	136	Gladiator: Shadowlands Season 4	Win 800 battlegrounds.	Eternal Gladiator's Soul Eater	401599	gladiator
+9349	17740	any	95	9347	10	401739	0	136	Gladiator: Dragonflight Season 2	Win 1000 battlegrounds.	Obsidian Gladiator's Slitherdrake	401739	gladiator
+9350	19091	any	95	9349	10	401831	0	136	Gladiator: Dragonflight Season 3	Win 1100 battlegrounds.	Verdant Gladiator's Slitherdrake	401831	gladiator
+9352	40393	any	95	9350	10	402218	0	136	Gladiator: The War Within Season 1	Win 1300 battlegrounds.	Forged Gladiator's Fel Bat	402218	gladiator
+9353	41032	any	95	9352	10	402298	0	136	Gladiator: The War Within Season 2	Win 1400 battlegrounds.	Prized Gladiator's Fel Bat	402298	gladiator
+9354	41049	any	95	9353	10	402326	0	136	Gladiator: The War Within Season 3	Win 1500 battlegrounds.	Astral Gladiator's Fel Bat	402326	gladiator
+9360	8485	alliance	14804	0	10	400554	0	0	Grievous Combatant	Win 50 Warsong Gulch battles.	Vicious Kaldorei Warsaber	400554	combatant_alliance
+9361	8484	horde	14804	0	10	400555	0	0	Grievous Combatant	Win 50 Warsong Gulch battles.	Vicious Skeletal Warhorse	400555	combatant_horde
+9362	8642	alliance	14802	0	10	400640	0	0	Prideful Combatant	Win 50 Arathi Basin battles.	Vicious War Ram	400640	combatant_alliance
+9363	8641	horde	14802	0	10	400641	0	0	Prideful Combatant	Win 50 Arathi Basin battles.	Vicious War Raptor	400641	combatant_horde
+9364	9238	alliance	14801	0	10	400755	0	0	Primal Combatant	Win 50 Alterac Valley battles.	Vicious War Mechanostrider	400755	combatant_alliance
+9365	9236	horde	14801	0	10	400843	0	0	Primal Combatant	Win 50 Alterac Valley battles.	Vicious Warstrider	400843	combatant_horde
+9366	10093	alliance	14803	0	10	400841	0	0	Wild Combatant	Win 50 Eye of the Storm battles.	Vicious Gilnean Warhorse	400841	combatant_alliance
+9367	10092	horde	14803	0	10	400842	0	0	Wild Combatant	Win 50 Eye of the Storm battles.	Vicious War Trike	400842	combatant_horde
+9368	10095	alliance	14881	0	10	400873	0	0	Warmongering Combatant	Win 50 Strand of the Ancients battles.	Vicious War Bear	400873	combatant_alliance
+9369	10094	horde	14881	0	10	400874	0	0	Warmongering Combatant	Win 50 Strand of the Ancients battles.	Vicious War Bear	400874	combatant_horde
+9370	10998	alliance	15003	0	10	400876	0	0	Vindictive Combatant	Win 50 Isle of Conquest battles.	Vicious War Lion	400876	combatant_alliance
+9371	10997	horde	15003	0	10	400882	0	0	Vindictive Combatant	Win 50 Isle of Conquest battles.	Vicious War Scorpion	400882	combatant_horde
+9372	11004	alliance	14804	0	10	400900	0	0	Fearless Combatant	Win 150 Warsong Gulch battles.	Vicious War Turtle	400900	combatant_alliance
+9373	11003	horde	14804	0	10	400901	0	0	Fearless Combatant	Win 150 Warsong Gulch battles.	Vicious War Turtle	400901	combatant_horde
+9374	11008	alliance	14802	0	10	400945	0	0	Cruel Combatant	Win 150 Arathi Basin battles.	Vicious War Fox	400945	combatant_alliance
+9375	11005	horde	14802	0	10	400946	0	0	Cruel Combatant	Win 150 Arathi Basin battles.	Vicious War Fox	400946	combatant_horde
+9376	11010	alliance	14801	0	10	401027	0	0	Ferocious Combatant	Win 150 Alterac Valley battles.	Vicious War Basilisk	401027	combatant_alliance
+9377	11009	horde	14801	0	10	401026	0	0	Ferocious Combatant	Win 150 Alterac Valley battles.	Vicious War Basilisk	401026	combatant_horde
+9378	12032	alliance	14803	0	10	401050	0	0	Fierce Combatant	Win 150 Eye of the Storm battles.	Vicious War Riverbeast	401050	combatant_alliance
+9379	12031	horde	14803	0	10	401045	0	0	Fierce Combatant	Win 150 Eye of the Storm battles.	Vicious War Clefthoof	401045	combatant_horde
+9380	12137	alliance	14881	0	10	401194	0	0	Dominant Combatant	Win 150 Strand of the Ancients battles.	Vicious White Warsaber	401194	combatant_alliance
+9381	12136	horde	14881	0	10	401197	0	0	Dominant Combatant	Win 150 Strand of the Ancients battles.	Vicious White Bonesteed	401197	combatant_horde
+9382	12200	alliance	15003	0	10	401195	0	0	Demonic Combatant	Win 150 Isle of Conquest battles.	Vicious Black Warsaber	401195	combatant_alliance
+9383	12199	horde	15003	0	10	401196	0	0	Demonic Combatant	Win 150 Isle of Conquest battles.	Vicious Black Bonesteed	401196	combatant_horde
+9390	9550	any	14808	0	10	3819	0	0	Boldly, You Sought the Power of Ragnaros	Defeat Ragnaros in the Molten Core.	Core Hound	400606	hydraxis
+9391	13931	any	168	0	10	2016	0	0	Memories of Fel, Frost and Fire	Defeat Azuregos, Lord Kazzak, Doomwalker and Doom Lord Kazzak.	Obsidian Worldbreaker	401240	memories
+9392	42212	any	168	0	10	402604	1	0	Titan Console Overcharged	Defeat Algalon the Observer in Ulduar.	OC91 Chariot	402604	brann
+9400	19479	any	14866	0	20	401669	0	0	Wake Me Up	Earn exalted status with the Oracles of Sholazar Basin.	Bestowed Ohuna Spotter	401669	oracles
+9401	19482	any	14866	0	20	401633	0	0	Army of the Fed	Earn exalted status with the Kalu'ak.	Bestowed Trawling Mammoth	401633	kaluak
+9402	19483	any	14865	0	20	401651	0	0	Flight Club	Earn exalted status with the Netherwing.	Bestowed Ottuk Vanguard	401651	netherwing
+9403	63630	any	14865	0	10	1679	0	0	Assault the Vault	Earn exalted status with the Shattered Sun Offensive.	Venomous Coiler	403062	shattered_sun
+9404	61017	any	14865	0	10	2702	0	0	Phase-Lost-and-Found	Earn exalted status with Ogri'la.	Phase-Lost Slateback	402655	ogrila
+9405	62385	any	14865	0	10	402829	0	0	Staring Into The Void	Earn exalted status with the Consortium.	Lab-Grown Stormray	402829	consortium
+9406	5866	any	14864	0	10	400413	0	0	The Molten Front Offensive	Earn exalted status with the Thorium Brotherhood and the Hydraxian Waterlords.	Flameward Hippogryph	400413	thorium
+9407	6827	horde	14866	0	20	400450	0	0	Pandaren Ambassador	Earn exalted status with the Kalu'ak, the Oracles and the Frenzyheart Tribe.	Pandaren Kite	400450	kaluak_ambassador
+9408	6828	alliance	14866	0	20	400450	0	0	Pandaren Ambassador	Earn exalted status with the Kalu'ak, the Oracles and the Frenzyheart Tribe.	Pandaren Kite	400450	kaluak_ambassador
+9409	13638	any	14865	0	20	401238	0	0	Undersea Usurper	Earn exalted status with the Cenarion Expedition and complete the Zangarmarsh quests.	Snapback Scuttler	401238	cenarion
+9410	40956	any	14864	0	40	3335	0	0	I'm On Island Time	Earn exalted status with Booty Bay, Gadgetzan, Ratchet and Everlook.	Honeyback Hivemother	401277	steamwheedle
+9411	41201	any	14865	0	40	402190	0	0	You Xal Not Pass	Earn exalted status with the Ashtongue Deathsworn and complete the Shadowmoon Valley quests.	Shadow of Doubt	402190	ashtongue
+9412	16492	any	14863	0	20	401621	0	0	Into the Storm	Complete the Storm Peaks quests and earn exalted status with the Sons of Hodir.	Coralscale Salamanther	401621	hodir
+9413	19485	any	14861	0	20	401618	0	136	Closing Time	Complete 120 quests in Tanaris and Silithus.	Bestowed Sandskimmer	401618	steward
+9414	19486	any	14863	0	40	401614	1	0	Across the Isles	Complete the Loremaster of Northrend achievement.	Stormtouched Bruffalon	401614	krasus_lore
+9415	12103	any	14862	0	10	400986	0	0	...And Chew Mana Buns	Complete the Netherstorm quests and explore Netherstorm.	Bleakhoof Ruinstrider	400986	haramad_buns
+9416	63653	any	14861	0	10	403053	0	136	Pro Poison Patroller	Complete 60 quests in Dustwallow Marsh and the Swamp of Sorrows.	Emerald Skyfang	403053	tabetha
+9417	41133	any	14862	0	15	402332	0	0	Isle Remember You	Complete 15 quests on the Isle of Quel'Danas.	The Breaker's Song	402332	liadrin
+9418	19481	any	14861	0	20	401474	0	0	Centaur of Attention	Complete 20 quests in Desolace.	Bestowed Thunderspine Packleader	401474	uthek
+9419	17785	any	14861	0	25	401733	0	0	Que Zara(lek), Zara(lek)	Complete 15 quests in Blackrock Depths.	Calescent Shalewing	401733	kharan
+9420	13541	any	14861	0	20	401247	0	0	Mecha-Done	Defeat Mekgineer Thermaplugg and complete 4 quests in Gnomeregan.	Mechacycle Model W	401247	overspark
+9421	41980	any	14861	0	10	2099	1	0	Vigilante	Complete 25 quests in Duskwood, or the Horde's Nothing But The Truth.	Terror of the Night	402511	ebonlocke
+9422	15336	any	14863	0	25	401551	0	0	From A to Zereth	Complete the Sholazar Basin quests and explore Sholazar Basin and the Storm Peaks.	Cryptic Aurelid	401551	itharius
+9423	15178	any	14805	0	10	1657	0	0	Fake It 'Til You Make It	Defeat Epoch Hunter in Old Hillsbrad Foothills on Heroic Difficulty.	Tazavesh Gearglider	401446	steward_fake
+9424	40539	any	171	0	10	402188	0	0	The Derby Dash	Win the Stranglethorn Fishing Extravaganza.	Kah, Legend of the Deep	402188	riggle
+9425	12866	any	201	1015	20	3602	0	0	45 Exalted Reputations	Raise 45 reputations to Exalted.	Pureheart Courser	401190	exalted
+9426	62190	alliance	155	0	10	402755	0	0	Life of the Party	Complete the Brewfest, Midsummer and Hallow's End achievements.	Umbral Dragonhawk	402755	party
+9427	62190	horde	155	0	10	402755	0	0	Life of the Party	Complete the Brewfest, Midsummer and Hallow's End achievements.	Umbral Dragonhawk	402755	party
+9428	19458	any	97	0	50	401825	0	0	A World Awoken	Explore Northrend, complete Across the Isles and earn exalted status with the Northrend Vanguard.	Taivan	401825	alexstrasza
+9429	61451	alliance	97	0	50	402802	0	0	Worldsoul-Searching	Explore Outland, complete the Outland quests and the Burning Crusade dungeon reputations.	Geargrinder Mk. 11	402802	khadgar
+9430	61451	horde	97	0	50	402802	0	0	Worldsoul-Searching	Explore Outland, complete the Outland quests and the Burning Crusade dungeon reputations.	Geargrinder Mk. 11	402802	khadgar
+9431	20501	any	168	0	50	402114	0	0	Back from the Beyond	Defeat the Lich King, finish the Wrathgate story and the Champion of the Frozen Wastes.	Zovaal's Soul Eater	402114	mograine
+9432	13250	any	97	0	25	2760	0	0	Northrend Pathfinder	Explore Northrend and win the battle for Wintergrasp.	Wonderwing 2.0	401224	krasus_path
