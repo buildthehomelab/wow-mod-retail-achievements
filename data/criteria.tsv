@@ -184,7 +184,7 @@ id	achievement	type	asset	quantity	flags	data	text
 20182	9422	complete_achievement	1269	0	0		Explore Storm Peaks
 20183	9423	complete_achievement	673	0	0		Heroic: The Escape From Durnholde
 20184	9424	complete_quest	8193	0	2		Master Angler
-20185	9425	exalted_reputations	0	45	1		45 reputations to exalted
+20185	9425	exalted_reputations	0	40	1		40 reputations to exalted
 20186	9426	complete_achievement	1684	0	0		Brewmaster
 20187	9426	complete_achievement	1038	0	0		The Flame Warden
 20188	9426	complete_achievement	1656	0	0		Hallowed Be Thy Name

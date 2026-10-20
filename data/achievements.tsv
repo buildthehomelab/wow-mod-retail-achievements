@@ -78,8 +78,8 @@ id	retail_id	faction	category	parent	points	icon	count	flags	title	description	r
 9404	61017	any	14865	0	10	2702	0	0	Phase-Lost-and-Found	Earn exalted status with Ogri'la.	Phase-Lost Slateback	402655	ogrila
 9405	62385	any	14865	0	10	402829	0	0	Staring Into The Void	Earn exalted status with the Consortium.	Lab-Grown Stormray	402829	consortium
 9406	5866	any	14864	0	10	400413	0	0	The Molten Front Offensive	Earn exalted status with the Thorium Brotherhood and the Hydraxian Waterlords.	Flameward Hippogryph	400413	thorium
-9407	6827	horde	14866	0	20	400450	0	0	Pandaren Ambassador	Earn exalted status with the Kalu'ak, the Oracles and the Frenzyheart Tribe.	Pandaren Kite	400450	kaluak_ambassador
-9408	6828	alliance	14866	0	20	400450	0	0	Pandaren Ambassador	Earn exalted status with the Kalu'ak, the Oracles and the Frenzyheart Tribe.	Pandaren Kite	400450	kaluak_ambassador
+9407	6827	horde	14866	0	20	400450	0	0	Pandaren Ambassador	Earn exalted status with the Kalu'ak and earn both The Oracles and Frenzyheart Tribe achievements (at different times).	Pandaren Kite	400450	kaluak_ambassador
+9408	6828	alliance	14866	0	20	400450	0	0	Pandaren Ambassador	Earn exalted status with the Kalu'ak and earn both The Oracles and Frenzyheart Tribe achievements (at different times).	Pandaren Kite	400450	kaluak_ambassador
 9409	13638	any	14865	0	20	401238	0	0	Undersea Usurper	Earn exalted status with the Cenarion Expedition and complete the Zangarmarsh quests.	Snapback Scuttler	401238	cenarion
 9410	40956	any	14864	0	40	3335	0	0	I'm On Island Time	Earn exalted status with Booty Bay, Gadgetzan, Ratchet and Everlook.	Honeyback Hivemother	401277	steamwheedle
 9411	41201	any	14865	0	40	402190	0	0	You Xal Not Pass	Earn exalted status with the Ashtongue Deathsworn and complete the Shadowmoon Valley quests.	Shadow of Doubt	402190	ashtongue
@@ -96,7 +96,7 @@ id	retail_id	faction	category	parent	points	icon	count	flags	title	description	r
 9422	15336	any	14863	0	25	401551	0	0	From A to Zereth	Complete the Sholazar Basin quests and explore Sholazar Basin and the Storm Peaks.	Cryptic Aurelid	401551	itharius
 9423	15178	any	14805	0	10	1657	0	0	Fake It 'Til You Make It	Defeat Epoch Hunter in Old Hillsbrad Foothills on Heroic Difficulty.	Tazavesh Gearglider	401446	steward_fake
 9424	40539	any	171	0	10	402188	0	0	The Derby Dash	Win the Stranglethorn Fishing Extravaganza.	Kah, Legend of the Deep	402188	riggle
-9425	12866	any	201	1015	20	3602	0	0	45 Exalted Reputations	Raise 45 reputations to Exalted.	Pureheart Courser	401190	exalted
+9425	12866	any	201	1015	20	3602	0	0	40 Exalted Reputations	Raise 40 reputations to Exalted.	Pureheart Courser	401190	exalted
 9426	62190	alliance	155	0	10	402755	0	0	Life of the Party	Complete the Brewfest, Midsummer and Hallow's End achievements.	Umbral Dragonhawk	402755	party
 9427	62190	horde	155	0	10	402755	0	0	Life of the Party	Complete the Brewfest, Midsummer and Hallow's End achievements.	Umbral Dragonhawk	402755	party
 9428	19458	any	97	0	50	401825	0	0	A World Awoken	Explore Northrend, complete Across the Isles and earn exalted status with the Northrend Vanguard.	Taivan	401825	alexstrasza
