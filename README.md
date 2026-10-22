@@ -65,30 +65,23 @@ only catches characters up, keeps bots out and guards the rewards, see below):
   (timed dungeons, flight paths, treasures, world PvP). The Gladiator steps of the two missing
   drakes keep their ids (9348, 9351).
 
-## Reputation goals on Evermore
+## Reputation goals
 
-The Pureheart Courser achievement (9425) requires **40 exalted reputations**, matching
-Wrath's stock 40-exalted milestone (1015), rather than the imported 45 requirement.
-It retains its achievement/criterion IDs, mount reward and stock predecessor. This is
-an intentional realm difficulty adjustment, not a claim that 45 is impossible in every
-Wrath ruleset. Existing completions and rewards remain valid; qualifying characters
-are caught up by the existing login check after the updated server data is loaded.
+The Pureheart Courser achievement (9425) needs **40 exalted reputations**, Wrath's stock
+milestone (achievement 1015), instead of retail's 45 (`data/criteria.tsv`, criterion 20185).
+It keeps its ids, mount reward and stock predecessor.
 
 All direct reputation criteria use Classic, Outland or Northrend factions. Pandaren
-Ambassador requires the Kalu'ak at exalted plus the **earned achievements** for both
-Oracles and Frenzyheart. Earn those two at different times by changing sides; their
-reputations cannot be exalted simultaneously. The criteria already use permanent
-achievement records, so only the description needed clarification.
+Ambassador needs the Kalu'ak at exalted plus the **earned achievements** for both Oracles
+and Frenzyheart. Earn those two at different times by changing sides; their reputations
+cannot be exalted simultaneously.
 
-The Burning Crusader and Northrend Vanguard metas reference stock Wrath achievements.
-Individual Progression still gates access to the corresponding content: these are
-long-term goals across the full Classic/TBC/Wrath progression, not goals guaranteed
-at each character's current stage. See [the audit](docs/reputation-audit.md).
+The Burning Crusader and Northrend Vanguard metas reference stock Wrath achievements. Whatever
+gates the matching content (for example Individual Progression) still applies, so these are
+long-term goals, not goals every character can reach at its current stage.
 
-Deployment requires both the updated world SQL and rebuilt z80 client patch. Preserve
-all existing character achievement/criteria records. Do not use the uninstall SQL.
-A locally built patch is only a candidate; rebuild against the latest authoritative
-spell patch before publication and deliver its launcher hash through the server workflow.
+Not yet checked on a live server: the Pureheart Courser count with the 40-reputation rule, and
+catch-up of characters who already qualify.
 
 ## Installing
 
