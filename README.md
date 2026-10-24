@@ -126,6 +126,13 @@ output changes nothing. It stops when the data drops an achievement or criterion
 patch or the module's current SQL has, or changes what a criterion counts (its achievement, type,
 asset or criteria data) or an achievement's faction; `--allow-changes` lets it through, for rows no server has yet. Add new rows with new ids.
 
+Row order matters to the client: the achievement window shows a series (150, 200, 250 ... mounts)
+as one entry only while each stage comes right after its predecessor among its category's rows, as
+in Blizzard's file. The build keeps the file's order, puts each later stage right after its
+predecessor and every other row at the end, and stops on a spell patch whose `Achievement.dbc` lost
+Blizzard's order (one sorted by id, say); wow-server's `tools/client-patches/achievement_order.py`
+restores it.
+
 ### The data files
 
 `data/achievements.tsv`, one row per achievement:

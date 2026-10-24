@@ -9,8 +9,11 @@ realm's spell patch and the module's world database SQL.
 Item.dbc and SpellIcon.dbc, which the build only reads). A patch MPQ replaces whole files, so the
 new rows go into its copies and every other file in it is copied unchanged. It gains:
 
-- Achievement.dbc: one row per achievement, placed after the stock achievements of its category.
-- Achievement_Criteria.dbc: its criteria.
+- Achievement.dbc: one row per achievement, listed after the stock achievements of its category
+  (Ui_Order). In the file, a later stage of a series goes right after its predecessor and any other
+  row at the end; the file keeps Blizzard's row order, which the client needs to show a series as
+  one entry. The build stops on an input that lost that order.
+- Achievement_Criteria.dbc: its criteria, after the file's own rows.
 
 The SQL has the same rows for the server (achievement_dbc, achievement_criteria_dbc), the
 criteria data the core wants for some criteria types (achievement_criteria_data), the mail that
@@ -34,7 +37,7 @@ import sys
 import tempfile
 
 import dbcmpq
-from dbcmpq import add_string, read_dbc, write_dbc
+from dbcmpq import add_string, place_stage, read_dbc, series_breaks, write_dbc
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "data")
@@ -308,7 +311,12 @@ def patch_dbcs(files, achievements, criteria, args):
         last[a["category"]] += 1
         order[a["id"]] = last[a["category"]]
 
+    breaks = series_breaks(stock)
+    need(not breaks, args.patch, "Achievement.dbc isn't in Blizzard's row order (%d series stages out of "
+         "place, e.g. %d), so the client would list them all; restore it first with wow-server's "
+         "tools/client-patches/achievement_order.py" % (len(breaks), breaks[0][1]) if breaks else "")
     rows[:] = stock
+    new_rows = []
     for a in achievements:
         row = [0] * ACHIEVEMENT_FIELDS
         row[0] = a["id"]
@@ -327,7 +335,18 @@ def patch_dbcs(files, achievements, criteria, args):
         row[43] = add_string(strings, reward_text(a))
         row[59] = LANG_MASK if a["reward"] else LANG_MASK_EMPTY
         row[60] = a["count"]
-        rows.append(row)
+        new_rows.append(row)
+    # A later stage goes straight after its predecessor (see series_breaks), so a stage whose
+    # predecessor is also new waits for it.
+    while new_rows:
+        placed = {r[0] for r in rows}
+        ready = [r for r in new_rows if not r[3] or r[3] in placed]
+        need(ready, args.patch, "achievements %s follow each other in a loop" % [r[0] for r in new_rows])
+        for row in ready:
+            place_stage(rows, row)
+        new_rows = [r for r in new_rows if r not in ready]
+    breaks = series_breaks(rows)
+    need(not breaks, args.patch, "series stages out of place after adding ours: %s" % breaks[:5])
 
     crit_rows[:] = [r for r in crit_rows if not in_block(r[0], CRITERIA_BLOCK)]
     for a in achievements:
