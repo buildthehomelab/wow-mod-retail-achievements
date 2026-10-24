@@ -22,7 +22,8 @@ def read_dbc(path):
 
 
 def write_dbc(path, rows, strings, fields):
-    rows = sorted(rows, key=lambda r: r[0])
+    """Rows in the order given, never re-sorted: the client reads Achievement.dbc in file order (see
+    series_breaks)."""
     with open(path, "wb") as f:
         f.write(struct.pack("<4s4I", b"WDBC", len(rows), fields, fields * 4, len(strings)))
         for r in rows:
@@ -55,6 +56,49 @@ def template(rows, row_id, what):
 def upsert(rows, row):
     rows[:] = [r for r in rows if r[0] != row[0]]
     rows.append(row)
+
+
+# --- Achievement series ------------------------------------------------------------------------
+
+UNSET = 0xFFFFFFFF                           # -1: either faction
+ACHIEVEMENT_SUPERCEDES, ACHIEVEMENT_FACTION, ACHIEVEMENT_CATEGORY, ACHIEVEMENT_FLAGS = 3, 1, 38, 41
+ACHIEVEMENT_HIDDEN = 0x2 | 0x800             # never listed / listed only once earned
+CATEGORY_FEATS_OF_STRENGTH = 81              # lists earned rows only
+
+
+def place_stage(rows, row):
+    """Inserts an Achievement.dbc row where the client's series logic needs it: a row that follows
+    another (Supercedes) right after that row's run of later stages, any other row at the end."""
+    before = row[ACHIEVEMENT_SUPERCEDES]
+    at = next((i for i, r in enumerate(rows) if r[0] == before), None) if before else None
+    if at is None:
+        rows.append(row)
+        return
+    while at + 1 < len(rows) and rows[at + 1][ACHIEVEMENT_SUPERCEDES] == rows[at][0]:
+        at += 1
+    rows.insert(at + 1, row)
+
+
+def series_breaks(rows):
+    """(faction, achievement, the row listed before it) for every later stage the achievement window
+    would list on its own. Wow.exe (GetCategoryNumAchievements 0x5B38E0, GetAchievementInfo 0x5B3FC0)
+    hides a series' unfinished stages in one walk over Achievement.dbc in file order: a stage stays
+    hidden only if its predecessor is the row it listed last in that category. So every stage has to
+    come right after its predecessor among its category's rows, as Blizzard's file has it; sorted by
+    id, about 54 stages of other series show at once on a new character."""
+    ids = {r[0] for r in rows}
+    found = []
+    for faction in (0, 1):                   # Horde, Alliance
+        last = {}
+        for r in rows:
+            if r[ACHIEVEMENT_FACTION] not in (UNSET, faction) or r[ACHIEVEMENT_FLAGS] & ACHIEVEMENT_HIDDEN \
+                    or r[ACHIEVEMENT_CATEGORY] == CATEGORY_FEATS_OF_STRENGTH:
+                continue
+            before = r[ACHIEVEMENT_SUPERCEDES]
+            if before in ids and last.get(r[ACHIEVEMENT_CATEGORY]) != before:
+                found.append((faction, r[0], last.get(r[ACHIEVEMENT_CATEGORY])))
+            last[r[ACHIEVEMENT_CATEGORY]] = r[0]
+    return found
 
 
 # --- MPQ ---------------------------------------------------------------------------------------
