@@ -104,3 +104,71 @@ id	retail_id	faction	category	parent	points	icon	count	flags	title	description	r
 9430	61451	horde	97	0	50	402802	0	0	Worldsoul-Searching	Explore Outland, complete the Outland quests and the Burning Crusade dungeon reputations.	Geargrinder Mk. 11	402802	khadgar
 9431	20501	any	168	0	50	402114	0	0	Back from the Beyond	Defeat the Lich King, finish the Wrathgate story and the Champion of the Frozen Wastes.	Zovaal's Soul Eater	402114	mograine
 9432	13250	any	97	0	25	2760	0	0	Northrend Pathfinder	Explore Northrend and win the battle for Wintergrasp.	Wonderwing 2.0	401224	krasus_path
+9433	4832	any	81	0	0	4286	0	0	Friends In Even Higher Places	Obtain the X-53 Touring Rocket.			
+9434	4888	any	92	0	10	400399	1	0	One Hump or Two?	Obtain a Brown, Tan or Grey Riding Camel.			
+9435	5767	any	81	0	0	400400	0	0	Scourer of the Eternal Sands	Obtain the Grey Riding Camel.			
+9436	6003	any	81	0	0	400424	0	0	Vicious Gladiator's Twilight Drake	Obtain the Vicious Gladiator's Twilight Drake.			
+9437	6322	any	81	0	0	400428	0	0	Ruthless Gladiator's Twilight Drake	Obtain the Ruthless Gladiator's Twilight Drake.			
+9438	6741	any	81	0	0	400467	0	0	Cataclysmic Gladiator's Twilight Drake	Obtain the Cataclysmic Gladiator's Twilight Drake.			
+9439	6849	any	81	0	0	400468	0	0	Collector's Edition: Imperial Quilen	Obtain the Imperial Quilen.			
+9440	7386	any	92	0	10	400460	0	0	Grand Expedition Yak	Obtain the Grand Expedition Yak.			
+9441	8092	any	81	0	0	400537	0	0	I've Got 9999 Problems but a Bone-White Primal Raptor Ain't One	Obtain the reins of the Bone-White Primal Raptor from Ju'zaro, the Zandalar Bonewright.			
+9442	8216	any	81	0	0	400541	0	0	Malevolent Gladiator's Cloud Serpent	Obtain the Malevolent Gladiator's Cloud Serpent.			
+9443	8345	any	81	0	0	400547	0	0	Hearthstoned	Obtain the Hearthsteed.			
+9444	8678	any	81	0	0	400562	0	0	Tyrannical Gladiator's Cloud Serpent	Obtain the Tyrannical Gladiator's Cloud Serpent.			
+9445	8705	any	81	0	0	400563	0	0	Grievous Gladiator's Cloud Serpent	Obtain the Grievous Gladiator's Cloud Serpent.			
+9446	8707	any	81	0	0	400564	0	0	Prideful Gladiator's Cloud Serpent	Obtain the Prideful Gladiator's Cloud Serpent.			
+9447	8794	any	81	0	0	400568	0	0	Friends In Places Even Higher Than That	Obtain the Emerald Hippogryph.			
+9448	8916	any	81	0	0	400600	0	0	Collector's Edition: Dread Raven	Obtain the Dread Raven.			
+9449	9229	any	81	0	0	400759	0	0	Primal Gladiator's Felblood Gronnling	Obtain the Primal Gladiator's Felblood Gronnling.			
+9450	9925	any	81	0	0	400454	0	0	Friends In Places Yet Even Higher Than That	Obtain the Cindermane Charger.			
+9451	10137	any	81	0	0	400760	0	0	Wild Gladiator's Felblood Gronnling	Obtain the Wild Gladiator's Felblood Gronnling.			
+9452	10146	any	81	0	0	400761	0	0	Warmongering Gladiator's Felblood Gronnling	Obtain the Warmongering Gladiator's Felblood Gronnling.			
+9453	10320	any	81	0	0	400763	0	0	Collector's Edition: Illidari Felstalker	Obtain the Illidari Felstalker.			
+9454	10999	any	81	0	0	400848	0	0	Vindictive Gladiator's Storm Dragon	Obtain the Vindictive Gladiator's Storm Dragon.			
+9455	11000	any	81	0	0	400849	0	0	Fearless Gladiator's Storm Dragon	Obtain the Fearless Gladiator's Storm Dragon.			
+9456	11001	any	81	0	0	400850	0	0	Cruel Gladiator's Storm Dragon	Obtain the Cruel Gladiator's Storm Dragon.			
+9457	11002	any	81	0	0	400851	0	0	Ferocious Gladiator's Storm Dragon	Obtain the Ferocious Gladiator's Storm Dragon.			
+9458	11931	any	81	0	0	400960	1	0	Rides of War	Obtain the Stormwind Skychaser or the Orgrimmar Interceptor.			
+9459	12139	any	81	0	0	400853	0	0	Dominant Gladiator's Storm Dragon	Obtain the Dominant Gladiator's Storm Dragon.			
+9460	12140	any	81	0	0	400948	0	0	Demonic Gladiator's Storm Dragon	Obtain the Demonic Gladiator's Storm Dragon.			
+9461	12229	any	81	0	0	400996	0	0	Collector's Edition: Seabraid Stallion	Obtain the Seabraid Stallion.			
+9462	12230	any	81	0	0	400997	0	0	Collector's Edition: Gilded Ravasaur	Obtain the Gilded Ravasaur.			
+9463	13093	any	81	0	0	401030	0	0	Dread Gladiator's Proto-Drake	Obtain the Dread Gladiator's Proto-Drake, the reward of Gladiator: Battle for Azeroth Season 1.			
+9464	13202	any	81	0	0	401031	0	0	Sinister Gladiator's Proto-Drake	Obtain the Sinister Gladiator's Proto-Drake, the reward of Gladiator: Battle for Azeroth Season 2.			
+9465	13450	any	81	0	0	400852	0	0	Fierce Gladiator's Storm Dragon	Obtain the Fierce Gladiator's Storm Dragon.			
+9466	13632	any	81	0	0	401032	0	0	Notorious Gladiator's Proto-Drake	Obtain the Notorious Gladiator's Proto-Drake, the reward of Gladiator: Battle for Azeroth Season 3.			
+9467	13958	any	81	0	0	401035	0	0	Corrupted Gladiator's Proto-Drake	Obtain the Corrupted Gladiator's Proto-Drake, the reward of Gladiator: Battle for Azeroth Season 4.			
+9468	14183	any	81	0	0	401039	0	0	Conspicuous Consumption	Obtain the Mighty Caravan Brutosaur.			
+9469	14283	any	81	0	0	401289	0	0	Heroic Edition: Ensorcelled Everwyrm	Obtain the Ensorcelled Everwyrm.			
+9470	14816	any	81	0	0	401363	0	0	Sinful Gladiator's Soul Eater	Obtain the Sinful Gladiator's Soul Eater, the reward of Gladiator: Shadowlands Season 1.			
+9471	14999	any	81	0	0	401480	0	0	Unchained Gladiator's Soul Eater	Obtain the Unchained Gladiator's Soul Eater, the reward of Gladiator: Shadowlands Season 2.			
+9472	15384	any	81	0	0	401572	0	0	Cosmic Gladiator's Soul Eater	Obtain the Cosmic Gladiator's Soul Eater, the reward of Gladiator: Shadowlands Season 3.			
+9473	15612	any	81	0	0	401599	0	0	Eternal Gladiator's Soul Eater	Obtain the Eternal Gladiator's Soul Eater, the reward of Gladiator: Shadowlands Season 4.			
+9474	15640	any	81	0	0	401596	0	0	Return to Darkness	Obtain the Amalgam of Rage.			
+9475	15794	any	92	0	10	401589	0	0	A New Friend	Obtain the Renewed Proto-Drake.			
+9476	15795	any	92	0	10	401590	0	0	Together in the Skies	Obtain the Windborne Velocidrake.			
+9477	15796	any	92	0	10	401591	0	0	Cliffside Companion	Obtain the Cliffside Wylderdrake.			
+9478	15797	any	92	0	10	401563	0	0	An Azure Ally	Obtain the Highland Drake.			
+9479	16730	any	81	0	0	401660	0	0	Crimson Gladiator's Drake	Obtain the Crimson Gladiator's Drake.			
+9480	16736	any	92	0	10	401612	0	0	Grand Theft Mammoth	Obtain the Loyal Magmammoth.			
+9481	17314	any	81	0	0	401556	0	0	Heroic Edition: Tangled Dreamweaver	Obtain the Tangled Dreamweaver.			
+9482	17778	any	81	0	0	401739	0	0	Obsidian Gladiator's Slitherdrake	Obtain the Obsidian Gladiator's Slitherdrake, the reward of Gladiator: Dragonflight Season 2.			
+9483	17779	any	92	0	10	401588	0	0	A Serpentine Discovery	Obtain the Winding Slitherdrake.			
+9484	19027	any	81	0	0	401792	0	0	Heroic Edition: Algarian Stormrider	Obtain the Algarian Stormrider.			
+9485	19295	any	81	0	0	401831	0	0	Verdant Gladiator's Slitherdrake	Obtain the Verdant Gladiator's Slitherdrake, the reward of Gladiator: Dragonflight Season 3.			
+9486	19503	any	81	0	0	401822	0	0	Draconic Gladiator's Drake	Obtain the Draconic Gladiator's Drake.			
+9487	19866	any	81	0	0	401168	0	0	Hearthstoned: Fiery Edition	Obtain the Fiery Hearthsteed.			
+9488	40398	any	81	0	0	402218	0	0	Forged Gladiator's Fel Bat	Obtain the Forged Gladiator's Fel Bat, the reward of Gladiator: The War Within Season 1.			
+9489	40459	any	92	0	10	402144	0	0	I've Got a Flying Machine!	Obtain the Delver's Dirigible.			
+9490	40967	any	81	0	0	401943	0	0	Ratts' Revenge	Obtain Incognitro, the Indecipherable Felcycle.			
+9491	41362	any	81	0	0	402298	0	0	Prized Gladiator's Fel Bat	Obtain the Prized Gladiator's Fel Bat, the reward of Gladiator: The War Within Season 2.			
+9492	41532	any	92	0	10	402296	0	0	I've Got a Flying Machine?	Obtain the Delver's Gob-Trotter.			
+9493	42039	any	81	0	0	402326	0	0	Astral Gladiator's Fel Bat	Obtain the Astral Gladiator's Fel Bat, the reward of Gladiator: The War Within Season 3.			
+9494	42677	any	92	0	10	402512	0	0	This Machine Flies?! Don't Care I Got It!	Obtain the Delver's Mana-Skimmer.			
+9495	61401	any	81	0	0	402568	0	0	Heroic Edition: Lightwing Dragonhawk	Obtain the Lightwing Dragonhawk.			
+9496	61402	any	81	0	0	402598	0	0	Epic Edition: Voidlight Surger	Obtain the Voidlight Surger.			
+9497	61450	any	81	0	0	402801	0	0	Galactic Gladiator's Goredrake	Obtain the Galactic Gladiator's Goredrake.			
+9498	61706	any	81	0	0	402749	0	0	Herald of the Goddess	Obtain the Echo of Aln'sharan.			
+9499	62955	any	81	0	0	402821	0	0	Venomous Gladiator's Goredrake	Obtain the Venomous Gladiator's Goredrake.			
+9500	63830	any	81	0	0	403137	0	0	Fungal Not Frugal	Obtain the Sporebearer Fungal Strider.			

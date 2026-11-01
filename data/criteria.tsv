@@ -205,3 +205,74 @@ id	achievement	type	asset	quantity	flags	data	text
 20203	9431	complete_achievement	1658	0	0		Champion of the Frozen Wastes
 20204	9432	complete_achievement	45	0	0		Explore Northrend
 20205	9432	complete_achievement	1717	0	0		Wintergrasp Victory
+20206	9433	learn_spell	75973	0	0		X-53 Touring Rocket
+20207	9434	learn_spell	400399	0	0		Tan Riding Camel
+20208	9434	learn_spell	400398	0	0		Brown Riding Camel
+20209	9434	learn_spell	400400	0	0		Grey Riding Camel
+20210	9435	learn_spell	400400	0	0		Grey Riding Camel
+20211	9436	learn_spell	400424	0	0		Vicious Gladiator's Twilight Drake
+20212	9437	learn_spell	400428	0	0		Ruthless Gladiator's Twilight Drake
+20213	9438	learn_spell	400467	0	0		Cataclysmic Gladiator's Twilight Drake
+20214	9439	learn_spell	400468	0	0		Imperial Quilen
+20215	9440	learn_spell	400460	0	0		Grand Expedition Yak
+20216	9441	learn_spell	400537	0	0		Bone-White Primal Raptor
+20217	9442	learn_spell	400541	0	0		Malevolent Gladiator's Cloud Serpent
+20218	9443	learn_spell	400547	0	0		Hearthsteed
+20219	9444	learn_spell	400562	0	0		Tyrannical Gladiator's Cloud Serpent
+20220	9445	learn_spell	400563	0	0		Grievous Gladiator's Cloud Serpent
+20221	9446	learn_spell	400564	0	0		Prideful Gladiator's Cloud Serpent
+20222	9447	learn_spell	400568	0	0		Emerald Hippogryph
+20223	9448	learn_spell	400600	0	0		Dread Raven
+20224	9449	learn_spell	400759	0	0		Primal Gladiator's Felblood Gronnling
+20225	9450	learn_spell	400454	0	0		Cindermane Charger
+20226	9451	learn_spell	400760	0	0		Wild Gladiator's Felblood Gronnling
+20227	9452	learn_spell	400761	0	0		Warmongering Gladiator's Felblood Gronnling
+20228	9453	learn_spell	400763	0	0		Illidari Felstalker
+20229	9454	learn_spell	400848	0	0		Vindictive Gladiator's Storm Dragon
+20230	9455	learn_spell	400849	0	0		Fearless Gladiator's Storm Dragon
+20231	9456	learn_spell	400850	0	0		Cruel Gladiator's Storm Dragon
+20232	9457	learn_spell	400851	0	0		Ferocious Gladiator's Storm Dragon
+20233	9458	learn_spell	400960	0	0		Orgrimmar Interceptor
+20234	9458	learn_spell	400959	0	0		Stormwind Skychaser
+20235	9459	learn_spell	400853	0	0		Dominant Gladiator's Storm Dragon
+20236	9460	learn_spell	400948	0	0		Demonic Gladiator's Storm Dragon
+20237	9461	learn_spell	400996	0	0		Seabraid Stallion
+20238	9462	learn_spell	400997	0	0		Gilded Ravasaur
+20239	9463	learn_spell	401030	0	0		Dread Gladiator's Proto-Drake
+20240	9464	learn_spell	401031	0	0		Sinister Gladiator's Proto-Drake
+20241	9465	learn_spell	400852	0	0		Fierce Gladiator's Storm Dragon
+20242	9466	learn_spell	401032	0	0		Notorious Gladiator's Proto-Drake
+20243	9467	learn_spell	401035	0	0		Corrupted Gladiator's Proto-Drake
+20244	9468	learn_spell	401039	0	0		Mighty Caravan Brutosaur
+20245	9469	learn_spell	401289	0	0		Ensorcelled Everwyrm
+20246	9470	learn_spell	401363	0	0		Sinful Gladiator's Soul Eater
+20247	9471	learn_spell	401480	0	0		Unchained Gladiator's Soul Eater
+20248	9472	learn_spell	401572	0	0		Cosmic Gladiator's Soul Eater
+20249	9473	learn_spell	401599	0	0		Eternal Gladiator's Soul Eater
+20250	9474	learn_spell	401596	0	0		Amalgam of Rage
+20251	9475	learn_spell	401589	0	0		Renewed Proto-Drake
+20252	9476	learn_spell	401590	0	0		Windborne Velocidrake
+20253	9477	learn_spell	401591	0	0		Cliffside Wylderdrake
+20254	9478	learn_spell	401563	0	0		Highland Drake
+20255	9479	learn_spell	401660	0	0		Crimson Gladiator's Drake
+20256	9480	learn_spell	401612	0	0		Loyal Magmammoth
+20257	9481	learn_spell	401556	0	0		Tangled Dreamweaver
+20258	9482	learn_spell	401739	0	0		Obsidian Gladiator's Slitherdrake
+20259	9483	learn_spell	401588	0	0		Winding Slitherdrake
+20260	9484	learn_spell	401792	0	0		Algarian Stormrider
+20261	9485	learn_spell	401831	0	0		Verdant Gladiator's Slitherdrake
+20262	9486	learn_spell	401822	0	0		Draconic Gladiator's Drake
+20263	9487	learn_spell	401168	0	0		Fiery Hearthsteed
+20264	9488	learn_spell	402218	0	0		Forged Gladiator's Fel Bat
+20265	9489	learn_spell	402144	0	0		Delver's Dirigible
+20266	9490	learn_spell	401943	0	0		Incognitro, the Indecipherable Felcycle
+20267	9491	learn_spell	402298	0	0		Prized Gladiator's Fel Bat
+20268	9492	learn_spell	402296	0	0		Delver's Gob-Trotter
+20269	9493	learn_spell	402326	0	0		Astral Gladiator's Fel Bat
+20270	9494	learn_spell	402512	0	0		Delver's Mana-Skimmer
+20271	9495	learn_spell	402568	0	0		Lightwing Dragonhawk
+20272	9496	learn_spell	402598	0	0		Voidlight Surger
+20273	9497	learn_spell	402801	0	0		Galactic Gladiator's Goredrake
+20274	9498	learn_spell	402749	0	0		Echo of Aln'sharan
+20275	9499	learn_spell	402821	0	0		Venomous Gladiator's Goredrake
+20276	9500	learn_spell	403137	0	0		Sporebearer Fungal Strider

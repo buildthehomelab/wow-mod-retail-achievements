@@ -6,7 +6,7 @@ achievement; this module brings those achievements over and mails the mount when
 The mounts themselves are the items of
 [wow-mod-retail-collection](https://github.com/buildthehomelab/wow-mod-retail-collection).
 
-This first batch is 105 achievements that the core's own criteria can track (the module's code
+There are 173 achievements, all of them ones the core's own criteria can track (the module's code
 only catches characters up, keeps bots out and guards the rewards, see below):
 
 | Family | Achievements | What it takes |
@@ -18,13 +18,15 @@ only catches characters up, keeps bots out and guards the rewards, see below):
 | Combatant seasons | 24 (Alliance and Horde) | 50 or 150 wins in one battleground; each faction gets its season's Vicious mount |
 | Bosses | 3 | Ragnaros (the stock Molten Core achievement); Azuregos, Lord Kazzak, Doomwalker and Doom Lord Kazzak; Algalon (Observed, 10 or 25 player) |
 | Reputation, quests and metas | 33 | Exalted reputations, quests in a zone, and stock achievements put together, e.g. Wake Me Up (the Oracles), Closing Time (120 quests in Tanaris and Silithus), A World Awoken (Explore Northrend, Across the Isles, Northrend Vanguard) |
+| Mount feats | 68 | Own one mount (or one of two or three): retail's achievements for a single mount, see Mount feats below |
 
 [`data/achievements.tsv`](data/achievements.tsv) lists every one with its retail id, and
 [`data/criteria.tsv`](data/criteria.tsv) what it takes.
 
 ## How they work
 
-- **Titles and rewards are retail's**, and so are the points (at most 50; 0 becomes 10). Where the
+- **Titles and rewards are retail's**, and so are the points (at most 50; 0 becomes 10, except for
+  Feats of Strength, which stay at 0). Where the
   retail goal doesn't exist here (a Legion Remix level, an arena rating, a Dragonflight zone), the
   description says what it takes instead.
 - **Faction pairs:** where retail has an Alliance and a Horde version, so does this module, and
@@ -64,6 +66,26 @@ only catches characters up, keeps bots out and guards the rewards, see below):
   Gladiator's Drakes), the Glory boss challenges, and the ones that need a check of their own
   (timed dungeons, flight paths, treasures, world PvP). The Gladiator steps of the two missing
   drakes keep their ids (9348, 9351).
+
+## Mount feats
+
+Retail has an achievement for owning one particular mount, e.g. I've Got 9999 Problems but a
+Bone-White Primal Raptor Ain't One, Hearthstoned or a Gladiator's drake. Every one of those whose
+mount the realm has is here (achievements 9433-9500): it is earned when the character learns the
+mount, and a character that already knows it earns it a second after its next login. None of them
+mail anything; the mount was the goal.
+
+- **Where they sit:** retail's Feats of Strength (Mounts and Promotions) go in the stock Feats of
+  Strength at 0 points, where the client lists only the ones a character has earned. Retail's
+  Collections > Mounts ones (One Hump or Two?, Grand Expedition Yak, the four Dragon Isles drakes,
+  Grand Theft Mammoth, the three Delver's machines) go in General at 10 points.
+- **Descriptions** name the mount, not retail's source (an arena season, a promotion, a zone
+  here). Where a mount comes from one of this module's achievements, the description names it
+  (the Gladiator mounts); the Bone-White Primal Raptor's names Ju'zaro (wow-mod-primal-bones).
+- **Left out:** the 39 the 3.3.5a client already has (Swift Zulian Tiger, Ashes of Al'ar, ...),
+  Vial of the Sands and Friends In Places Higher Yet (the Sandstone Drake and Obsidian Nightwing
+  have no look yet), Awake the Drakes (it rewards the Emerald Drake, which has no look either),
+  and retail's tracking-only rows. Scourer of the Eternal Sands comes without its title.
 
 ## Reputation goals
 
